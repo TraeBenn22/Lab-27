@@ -7,6 +7,10 @@
   "dependencies": {
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "1.7.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-react": "^7.14.3",
     "react": "16.6.3",
     "react-dom": "16.6.3",
     "react-jsonschema-form": "1.0.6",
@@ -20,11 +24,12 @@
   },
   "devDependencies": {},
   "scripts": {
+    "lint": "eslint src/**/*.js --fix",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy":"arn:aws:s3:::bucket4codefellows1/*",
+    "deploy": "arn:aws:s3:::bucket4codefellows1/*",
     "react-styleguidist": "^9.1.16"
   },
   "browserslist": [

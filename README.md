@@ -10,3 +10,6 @@ live-server URL: http://127.0.0.1:8080
    │   Copied local address to clipboard!             │
    │                                          
 AWS S3: http://bucket4codefellows1.s3-website.us-east-2.amazonaws.com/
+Netlify: https://objective-hopper-71a8e3.netlify.com/
+
+everything else is set up, added the correct eslint.json file and ran the scripts mentionedn in slack. 
