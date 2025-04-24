@@ -15,7 +15,7 @@
     "react-dom": "16.6.3",
     "react-jsonschema-form": "1.0.6",
     "react-redux": "5.1.1",
-    "react-router-dom": "4.3.1",
+    "react-router-dom": "7.5.2",
     "react-scripts": "2.1.1",
     "react-styleguidist": "^9.1.16",
     "react-test-renderer": "^16.6.3",
